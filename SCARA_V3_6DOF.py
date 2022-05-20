@@ -99,12 +99,12 @@ q6 = np.array([mm_to_meter(float(input("d1 = "))),
                 deg_to_rad(float(input("T6 = ")))])
 
 # Trajectory commands
-traj1 = rtb.jtraj(q0,q1,15)
-traj2 = rtb.jtraj(q1,q2,15)
-traj3 = rtb.jtraj(q2,q3,15)
-traj4 = rtb.jtraj(q3,q4,15)
-traj5 = rtb.jtraj(q4,q5,15)
-traj6 = rtb.jtraj(q5,q6,15)
+traj1 = rtb.jtraj(q0,q1,50)
+traj2 = rtb.jtraj(q1,q2,50)
+traj3 = rtb.jtraj(q2,q3,50)
+traj4 = rtb.jtraj(q3,q4,50)
+traj5 = rtb.jtraj(q4,q5,50)
+traj6 = rtb.jtraj(q5,q6,50)
 
 #plot scale
 x1 = -1.0
