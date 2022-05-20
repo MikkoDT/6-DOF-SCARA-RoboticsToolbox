@@ -1,5 +1,7 @@
 # 6DOF-SCARA-V3-RoboticsToolbox
  SCARA V3 Simulation in Robotics Toolbox
+ 
+ <img src="robot.gif">
 
 The library used in this python program is Robotics Toolbox by Peter Corke.
 
