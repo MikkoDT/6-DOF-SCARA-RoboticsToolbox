@@ -50,6 +50,7 @@ def deg_to_rad(T):
 
 # q Paths
 q0 = np.array([0,0,0,0,0,0,0])
+# Test 5mm, 60deg, 45deg, -30deg, 90deg, 30deg 
 q1 = np.array([mm_to_meter(float(input("d1 = "))),
                 deg_to_rad(float(input("T2 = "))),
                 deg_to_rad(float(input("T3 = "))),
@@ -58,6 +59,7 @@ q1 = np.array([mm_to_meter(float(input("d1 = "))),
                 deg_to_rad(float(input("T5 = "))),
                 deg_to_rad(float(input("T6 = ")))])
 
+# Test 10mm, 90deg, 90deg, 90deg, 90deg, 90deg 
 q2 = np.array([mm_to_meter(float(input("d1 = "))),
                 deg_to_rad(float(input("T2 = "))),
                 deg_to_rad(float(input("T3 = "))),
@@ -66,6 +68,7 @@ q2 = np.array([mm_to_meter(float(input("d1 = "))),
                 deg_to_rad(float(input("T5 = "))),
                 deg_to_rad(float(input("T6 = ")))])
 
+# Test 0mm, -60deg, -45deg, 30deg, 0deg, 60deg 
 q3 = np.array([mm_to_meter(float(input("d1 = "))),
                 deg_to_rad(float(input("T2 = "))),
                 deg_to_rad(float(input("T3 = "))),
@@ -74,6 +77,7 @@ q3 = np.array([mm_to_meter(float(input("d1 = "))),
                 deg_to_rad(float(input("T5 = "))),
                 deg_to_rad(float(input("T6 = ")))])
 
+# Test 15mm, 10deg, -45deg, 20deg, 60deg, 45deg 
 q4 = np.array([mm_to_meter(float(input("d1 = "))),
                 deg_to_rad(float(input("T2 = "))),
                 deg_to_rad(float(input("T3 = "))),
@@ -82,6 +86,7 @@ q4 = np.array([mm_to_meter(float(input("d1 = "))),
                 deg_to_rad(float(input("T5 = "))),
                 deg_to_rad(float(input("T6 = ")))])
 
+# Test 0mm, -60deg, -45deg, 0deg, -90deg, 40deg 
 q5 = np.array([mm_to_meter(float(input("d1 = "))),
                 deg_to_rad(float(input("T2 = "))),
                 deg_to_rad(float(input("T3 = "))),
@@ -90,6 +95,7 @@ q5 = np.array([mm_to_meter(float(input("d1 = "))),
                 deg_to_rad(float(input("T5 = "))),
                 deg_to_rad(float(input("T6 = ")))])
 
+# Test 0mm, 0deg, 0deg, 0deg, 0deg, 0deg 
 q6 = np.array([mm_to_meter(float(input("d1 = "))),
                 deg_to_rad(float(input("T2 = "))),
                 deg_to_rad(float(input("T3 = "))),
